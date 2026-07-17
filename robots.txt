@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vsondur123.github.io/varun-sondur/sitemap.xml
