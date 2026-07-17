@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://varunsondur.github.io/portfolio",
+  "homepage": "https://vsondur123.github.io/varun-sondur",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "aos": "^2.3.4",
