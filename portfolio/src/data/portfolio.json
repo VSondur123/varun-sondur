@@ -1,0 +1,349 @@
+{
+  "personal": {
+    "name": "Varun Sondur",
+    "firstName": "Varun",
+    "lastName": "Sondur",
+    "title": "Senior Software Engineer",
+    "tagline": "Building scalable fintech systems with precision and purpose",
+    "intro": "Passionate Senior Software Engineer with expertise in distributed systems, microservices, and fintech platforms. I craft robust, scalable solutions that power critical financial infrastructure — from loan origination to real-time payment processing.",
+    "photo": "",
+    "resumeFile": "/resume/Varun_Sondur_Resume.pdf",
+    "openToWork": true
+  },
+  "contact": {
+    "email": "varun.sondur@gmail.com",
+    "phone": "+91 98765 43210",
+    "location": "Bengaluru, Karnataka, India",
+    "timezone": "IST (UTC+5:30)"
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/varunsondur",
+      "icon": "FaLinkedin",
+      "label": "LinkedIn"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/varunsondur",
+      "icon": "FaGithub",
+      "label": "GitHub"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/varunsondur",
+      "icon": "FaTwitter",
+      "label": "Twitter"
+    }
+  ],
+  "about": {
+    "summary": "I'm a Senior Software Engineer specializing in building high-performance fintech platforms. With over 6 years of experience, I've designed and delivered systems that process millions of financial transactions daily. My expertise spans microservices architecture, event-driven systems, and cloud-native development.",
+    "highlights": [
+      "6+ years building mission-critical fintech systems",
+      "Expert in Java, Spring Boot, and distributed architectures",
+      "Proven track record with Temporal Workflows and event-driven design",
+      "Led engineering teams delivering zero-downtime financial platforms",
+      "Deep domain knowledge in Loan Management Systems and payment processing"
+    ],
+    "personalNote": "When I'm not architecting systems, I enjoy contributing to open-source, reading about distributed systems theory, and exploring the intersection of technology and financial inclusion."
+  },
+  "experience": [
+    {
+      "id": "exp1",
+      "company": "Fyndna",
+      "role": "Senior Software Engineer",
+      "type": "Full-time",
+      "duration": "2022 – Present",
+      "startDate": "2022-07",
+      "endDate": null,
+      "location": "Bengaluru, India",
+      "logo": "",
+      "responsibilities": [
+        "Architected and led development of the core Loan Management System (LMS) handling end-to-end loan lifecycle — origination, disbursement, repayment scheduling, and closure",
+        "Designed Product Processor Foundation (PPF) and Business Foundation Services (BFS) as reusable microservice layers, reducing new product onboarding time by 60%",
+        "Implemented Temporal Workflow Engine for durable, fault-tolerant loan orchestration, achieving 99.99% reliability across disbursement and closure workflows",
+        "Built event-driven architecture using Kafka for real-time loan state transitions and audit trail generation processing 500K+ events/day",
+        "Introduced scheduled action framework for automated due-date processing, EMI reminders, and penalty computation",
+        "Mentored a team of 5 engineers, conducted design reviews, and established coding standards and best practices",
+        "Reduced P99 API latency by 40% through strategic caching, query optimization, and connection pool tuning",
+        "Led migration from monolithic architecture to microservices with zero downtime using strangler fig pattern"
+      ],
+      "technologies": ["Java", "Spring Boot", "Temporal", "Kafka", "PostgreSQL", "Redis", "Docker", "Kubernetes", "AWS"]
+    },
+    {
+      "id": "exp2",
+      "company": "Infosys",
+      "role": "Software Engineer",
+      "type": "Full-time",
+      "duration": "2019 – 2022",
+      "startDate": "2019-08",
+      "endDate": "2022-06",
+      "location": "Bengaluru, India",
+      "logo": "",
+      "responsibilities": [
+        "Developed and maintained banking microservices for a tier-1 US bank, handling account management and transaction processing",
+        "Built REST APIs for customer onboarding module serving 50,000+ daily active users",
+        "Implemented automated testing pipelines using JUnit, Mockito, and Selenium, achieving 85% code coverage",
+        "Collaborated with cross-functional teams across US and India in an Agile/Scrum environment",
+        "Optimized SQL queries and database schemas reducing average query time by 35%",
+        "Participated in on-call rotation for production support of critical banking systems"
+      ],
+      "technologies": ["Java", "Spring MVC", "Oracle DB", "REST APIs", "JUnit", "Selenium", "Jenkins", "Git"]
+    },
+    {
+      "id": "exp3",
+      "company": "Wipro",
+      "role": "Software Engineer Intern",
+      "type": "Internship",
+      "duration": "Jan 2019 – Jul 2019",
+      "startDate": "2019-01",
+      "endDate": "2019-07",
+      "location": "Bengaluru, India",
+      "logo": "",
+      "responsibilities": [
+        "Developed RESTful microservices for an internal HR management platform",
+        "Implemented JWT-based authentication and role-based access control",
+        "Built React-based UI components for the employee self-service portal",
+        "Wrote comprehensive unit tests achieving 80%+ code coverage"
+      ],
+      "technologies": ["Java", "Spring Boot", "React", "MySQL", "JWT", "Maven"]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "institution": "Visvesvaraya Technological University (VTU)",
+      "degree": "Bachelor of Engineering",
+      "field": "Computer Science & Engineering",
+      "duration": "2015 – 2019",
+      "startDate": "2015-08",
+      "endDate": "2019-07",
+      "location": "Belagavi, Karnataka, India",
+      "grade": "First Class with Distinction — 8.4 CGPA",
+      "logo": "",
+      "highlights": [
+        "Graduated with First Class Distinction",
+        "Final year project on distributed consensus algorithms",
+        "Active member of the Computer Science Association"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "icon": "FaCode",
+      "items": ["Java", "Python", "JavaScript", "TypeScript", "SQL", "Bash"]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "FaLayerGroup",
+      "items": ["Spring Boot", "Spring MVC", "Hibernate", "React", "Node.js", "Express.js"]
+    },
+    {
+      "category": "Distributed Systems",
+      "icon": "FaNetworkWired",
+      "items": ["Temporal Workflows", "Apache Kafka", "RabbitMQ", "Event-Driven Architecture", "CQRS", "Saga Pattern"]
+    },
+    {
+      "category": "Databases",
+      "icon": "FaDatabase",
+      "items": ["PostgreSQL", "MySQL", "Oracle DB", "Redis", "MongoDB", "Elasticsearch"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "icon": "FaCloud",
+      "items": ["AWS (EC2, S3, RDS, SQS)", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform"]
+    },
+    {
+      "category": "Architecture & Design",
+      "icon": "FaProjectDiagram",
+      "items": ["Microservices", "REST APIs", "gRPC", "Domain-Driven Design", "SOLID Principles", "Design Patterns"]
+    },
+    {
+      "category": "Testing",
+      "icon": "FaVial",
+      "items": ["JUnit 5", "Mockito", "TestContainers", "Selenium", "Postman", "K6 Load Testing"]
+    },
+    {
+      "category": "Tools & Practices",
+      "icon": "FaTools",
+      "items": ["Git", "JIRA", "Confluence", "IntelliJ IDEA", "Agile/Scrum", "Code Review"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "LMS — Loan Management System",
+      "description": "End-to-end loan lifecycle management platform handling origination, disbursement, repayment, and closure for a fintech lender. Processes 10,000+ loans per day with sub-100ms API response times.",
+      "longDescription": "Designed and built a comprehensive Loan Management System from scratch. The system handles the complete loan lifecycle from application submission to final closure, including automated credit decisioning, disbursement orchestration, EMI scheduling, delinquency management, and regulatory reporting.",
+      "highlights": [
+        "10,000+ loans processed daily",
+        "Sub-100ms P99 API latency",
+        "99.99% uptime SLA maintained",
+        "Zero-loss disbursement guarantee via Temporal"
+      ],
+      "technologies": ["Java", "Spring Boot", "Temporal", "Kafka", "PostgreSQL", "Redis", "AWS", "Docker"],
+      "github": "",
+      "demo": "",
+      "image": "",
+      "type": "Professional",
+      "featured": true
+    },
+    {
+      "id": "proj2",
+      "title": "DueDateProcessing — Scheduled Action Engine",
+      "description": "A distributed batch processing engine for automated financial actions — EMI processing, penalty computation, NOC generation, and regulatory reporting. Handles 500K+ scheduled actions nightly.",
+      "longDescription": "Built a horizontally scalable scheduled action engine that manages all time-based financial operations. Uses a cron-based trigger system with distributed locking to ensure exactly-once execution semantics even in multi-node deployments.",
+      "highlights": [
+        "500K+ actions processed nightly",
+        "Exactly-once execution semantics",
+        "Idempotent action handlers",
+        "Comprehensive audit trail"
+      ],
+      "technologies": ["Java", "Spring Batch", "Quartz Scheduler", "Redis", "PostgreSQL", "Temporal"],
+      "github": "",
+      "demo": "",
+      "image": "",
+      "type": "Professional",
+      "featured": true
+    },
+    {
+      "id": "proj3",
+      "title": "PPF — Product Processor Foundation",
+      "description": "A reusable microservice layer abstracting common financial product operations — interest computation, fee management, account lifecycle, and product configuration — enabling rapid new product launches.",
+      "longDescription": "Designed the Product Processor Foundation as a composable set of services that any financial product can leverage. This abstraction layer reduced new product onboarding from 3 months to under 2 weeks by providing pre-built, tested building blocks.",
+      "highlights": [
+        "60% faster product onboarding",
+        "Pluggable interest computation engine",
+        "Configuration-driven product setup",
+        "Reused across 5+ financial products"
+      ],
+      "technologies": ["Java", "Spring Boot", "Domain-Driven Design", "PostgreSQL", "Kafka", "REST APIs"],
+      "github": "",
+      "demo": "",
+      "image": "",
+      "type": "Professional",
+      "featured": true
+    },
+    {
+      "id": "proj4",
+      "title": "DistribuTrace — Distributed Tracing Dashboard",
+      "description": "An open-source observability dashboard for visualizing Temporal workflow execution traces, Kafka consumer lag, and service dependency maps in real-time.",
+      "longDescription": "Personal open-source project to solve observability challenges encountered at work. Aggregates traces from Jaeger, Kafka consumer metrics, and service health endpoints into a unified dashboard.",
+      "highlights": [
+        "Real-time Temporal workflow visualization",
+        "Kafka consumer lag monitoring",
+        "Service dependency graph",
+        "Alerting via webhooks"
+      ],
+      "technologies": ["React", "Node.js", "TypeScript", "Jaeger", "Prometheus", "Grafana", "Docker"],
+      "github": "https://github.com/varunsondur/distribu-trace",
+      "demo": "",
+      "image": "",
+      "type": "Open Source",
+      "featured": false
+    }
+  ],
+  "leadership": [
+    {
+      "id": "lead1",
+      "title": "Engineering Lead — LMS Core Team",
+      "organization": "Fyndna",
+      "duration": "2023 – Present",
+      "description": "Lead a team of 5 engineers building the core Loan Management System. Responsible for technical roadmap, architecture decisions, code reviews, sprint planning, and mentoring junior engineers.",
+      "impact": "Delivered 3 major product releases on time, achieving zero critical production incidents under my watch."
+    },
+    {
+      "id": "lead2",
+      "title": "Chapter Lead — Backend Engineering",
+      "organization": "Fyndna",
+      "duration": "2023 – Present",
+      "description": "Lead the Backend Engineering chapter, organizing bi-weekly knowledge-sharing sessions, establishing coding standards, and driving adoption of best practices across 3 product teams.",
+      "impact": "Improved overall backend code quality score by 25% as measured by SonarQube metrics."
+    },
+    {
+      "id": "lead3",
+      "title": "Technical Interviewer",
+      "organization": "Fyndna & Infosys",
+      "duration": "2021 – Present",
+      "description": "Conduct technical interviews for senior and mid-level engineering roles. Designed a standardized interview rubric for backend engineering hiring.",
+      "impact": "Interviewed 80+ candidates and helped build the engineering team from 10 to 30+ engineers at Fyndna."
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach1",
+      "title": "Best Engineer Award",
+      "organization": "Fyndna",
+      "year": "2024",
+      "description": "Awarded 'Best Engineer of the Year' for exceptional contributions to the LMS platform architecture and mentoring culture.",
+      "icon": "FaTrophy"
+    },
+    {
+      "id": "ach2",
+      "title": "Zero-Downtime Migration Champion",
+      "organization": "Fyndna",
+      "year": "2023",
+      "description": "Successfully led a monolith-to-microservices migration across 12 services with zero production downtime, saving an estimated ₹2Cr+ in potential revenue risk.",
+      "icon": "FaRocket"
+    },
+    {
+      "id": "ach3",
+      "title": "Spotlight Award — Client Delivery",
+      "organization": "Infosys",
+      "year": "2021",
+      "description": "Recognized by the US banking client for exceptional delivery of the customer onboarding module 2 weeks ahead of schedule.",
+      "icon": "FaStar"
+    },
+    {
+      "id": "ach4",
+      "title": "Hackathon Winner — FinHack 2022",
+      "organization": "Bengaluru FinTech Forum",
+      "year": "2022",
+      "description": "Won first place at FinHack 2022 with a real-time loan risk scoring engine using ML and alternative data sources. Built a working prototype in 24 hours.",
+      "icon": "FaMedal"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert1",
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "year": "2023",
+      "credentialId": "AWS-SAA-C03-XXXX",
+      "url": "https://aws.amazon.com/certification/"
+    },
+    {
+      "id": "cert2",
+      "title": "Oracle Certified Professional: Java SE 11",
+      "issuer": "Oracle",
+      "year": "2021",
+      "credentialId": "OCP-JAVA11-XXXX",
+      "url": "https://education.oracle.com/"
+    },
+    {
+      "id": "cert3",
+      "title": "Confluent Certified Developer for Apache Kafka",
+      "issuer": "Confluent",
+      "year": "2022",
+      "credentialId": "CCDAK-XXXX",
+      "url": "https://www.confluent.io/certification/"
+    }
+  ],
+  "research": [],
+  "publications": [],
+  "interests": [
+    "Distributed Systems",
+    "Fintech & Financial Inclusion",
+    "Open Source Contribution",
+    "System Design",
+    "Technical Writing",
+    "Hiking & Travel"
+  ],
+  "seo": {
+    "siteUrl": "https://varun.sondur",
+    "title": "Varun Sondur — Senior Software Engineer",
+    "description": "Senior Software Engineer specializing in fintech platforms, distributed systems, and microservices architecture. Building scalable loan management and payment systems.",
+    "keywords": "Varun Sondur, Senior Software Engineer, Fintech, Java, Spring Boot, Microservices, Temporal, Kafka, LMS, Bengaluru"
+  }
+}
